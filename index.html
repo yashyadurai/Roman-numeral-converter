@@ -9,17 +9,20 @@
 </head>
 <body>
     <main id="pre-main">
-                <h2>Roman Numeral Converter</h2>
-                <form id="form">
-                    <fieldset>
-                        <label for="number" id="enterANumber">Enter a Number :</label>
-                        <input id="number" type="number" required>
-                        <button id="convert-btn" type="submit">Submit</button>
-                    </fieldset>
-                </form>
-                <div id="output hidden">
-                    <p id="output-txt"></p>
-                </div>
+        <section id="main-container-1">
+            <h2>Roman Numeral Converter</h2>
+            <form id="form">
+                <fieldset>
+                    <label for="number" id="enterANumber">Enter a Number :</label>
+                    <input id="number" type="number" required min="1" max="3999">
+                    <button id="convert-btn" type="submit">Submit</button>
+                </fieldset>
+            </form>
+
+            <div id="output hidden">
+                <p id="output-txt"></p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
